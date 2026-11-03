@@ -1,0 +1,15 @@
+learning rate    lr=0.001               val acc 0.9322  train acc 0.9405
+learning rate    lr=0.01                val acc 0.9747  train acc 0.9884
+learning rate    lr=0.1                 val acc 0.9753  train acc 0.9914
+hidden sizes     hidden=(32,)           val acc 0.9565  train acc 0.9654
+hidden sizes     hidden=(128, 64)       val acc 0.9747  train acc 0.9884
+hidden sizes     hidden=(256, 128)      val acc 0.9747  train acc 0.9919
+optimizer        sgd                    val acc 0.9748  train acc 0.9899
+optimizer        momentum               val acc 0.9747  train acc 0.9884
+optimizer        adam                   val acc 0.9778  train acc 0.9954
+batch size       batch=16               val acc 0.9768  train acc 0.9969
+batch size       batch=64               val acc 0.9747  train acc 0.9884
+batch size       batch=256              val acc 0.9583  train acc 0.9634
+L2 weight decay  l2=0.0                 val acc 0.9737  train acc 0.9893
+L2 weight decay  l2=0.0001              val acc 0.9747  train acc 0.9884
+L2 weight decay  l2=0.001               val acc 0.9710  train acc 0.9840

@@ -1,0 +1,379 @@
+{
+  "epochs": 8,
+  "rows": [
+    {
+      "group": "learning rate",
+      "setting": "lr=0.001",
+      "val_accuracy": 0.9321666666666667,
+      "val_loss": 0.2296401411294937,
+      "final_train_accuracy": 0.9405,
+      "params": 109386,
+      "seconds": 5.69530463218689,
+      "config": {
+        "hidden_sizes": [
+          128,
+          64
+        ],
+        "learning_rate": 0.001,
+        "batch_size": 64,
+        "epochs": 8,
+        "optimizer": "momentum",
+        "momentum": 0.9,
+        "lr_decay": 0.95,
+        "l2": 0.0001,
+        "seed": 42,
+        "patience": 8,
+        "val_size": 6000
+      }
+    },
+    {
+      "group": "learning rate",
+      "setting": "lr=0.01",
+      "val_accuracy": 0.9746666666666667,
+      "val_loss": 0.09322967380285263,
+      "final_train_accuracy": 0.9883888888888889,
+      "params": 109386,
+      "seconds": 5.7668681144714355,
+      "config": {
+        "hidden_sizes": [
+          128,
+          64
+        ],
+        "learning_rate": 0.01,
+        "batch_size": 64,
+        "epochs": 8,
+        "optimizer": "momentum",
+        "momentum": 0.9,
+        "lr_decay": 0.95,
+        "l2": 0.0001,
+        "seed": 42,
+        "patience": 8,
+        "val_size": 6000
+      }
+    },
+    {
+      "group": "learning rate",
+      "setting": "lr=0.1",
+      "val_accuracy": 0.9753333333333334,
+      "val_loss": 0.09356573224067688,
+      "final_train_accuracy": 0.9913703703703703,
+      "params": 109386,
+      "seconds": 5.883258104324341,
+      "config": {
+        "hidden_sizes": [
+          128,
+          64
+        ],
+        "learning_rate": 0.1,
+        "batch_size": 64,
+        "epochs": 8,
+        "optimizer": "momentum",
+        "momentum": 0.9,
+        "lr_decay": 0.95,
+        "l2": 0.0001,
+        "seed": 42,
+        "patience": 8,
+        "val_size": 6000
+      }
+    },
+    {
+      "group": "hidden sizes",
+      "setting": "hidden=(32,)",
+      "val_accuracy": 0.9565,
+      "val_loss": 0.15220418572425842,
+      "final_train_accuracy": 0.9654074074074074,
+      "params": 25450,
+      "seconds": 2.3290140628814697,
+      "config": {
+        "hidden_sizes": [
+          32
+        ],
+        "learning_rate": 0.01,
+        "batch_size": 64,
+        "epochs": 8,
+        "optimizer": "momentum",
+        "momentum": 0.9,
+        "lr_decay": 0.95,
+        "l2": 0.0001,
+        "seed": 42,
+        "patience": 8,
+        "val_size": 6000
+      }
+    },
+    {
+      "group": "hidden sizes",
+      "setting": "hidden=(128, 64)",
+      "val_accuracy": 0.9746666666666667,
+      "val_loss": 0.09322967380285263,
+      "final_train_accuracy": 0.9883888888888889,
+      "params": 109386,
+      "seconds": 6.195290803909302,
+      "config": {
+        "hidden_sizes": [
+          128,
+          64
+        ],
+        "learning_rate": 0.01,
+        "batch_size": 64,
+        "epochs": 8,
+        "optimizer": "momentum",
+        "momentum": 0.9,
+        "lr_decay": 0.95,
+        "l2": 0.0001,
+        "seed": 42,
+        "patience": 8,
+        "val_size": 6000
+      }
+    },
+    {
+      "group": "hidden sizes",
+      "setting": "hidden=(256, 128)",
+      "val_accuracy": 0.9746666666666667,
+      "val_loss": 0.08430209010839462,
+      "final_train_accuracy": 0.9919444444444444,
+      "params": 235146,
+      "seconds": 11.749119997024536,
+      "config": {
+        "hidden_sizes": [
+          256,
+          128
+        ],
+        "learning_rate": 0.01,
+        "batch_size": 64,
+        "epochs": 8,
+        "optimizer": "momentum",
+        "momentum": 0.9,
+        "lr_decay": 0.95,
+        "l2": 0.0001,
+        "seed": 42,
+        "patience": 8,
+        "val_size": 6000
+      }
+    },
+    {
+      "group": "optimizer",
+      "setting": "sgd",
+      "val_accuracy": 0.9748333333333333,
+      "val_loss": 0.08651217818260193,
+      "final_train_accuracy": 0.9898518518518519,
+      "params": 109386,
+      "seconds": 5.355021238327026,
+      "config": {
+        "hidden_sizes": [
+          128,
+          64
+        ],
+        "learning_rate": 0.1,
+        "batch_size": 64,
+        "epochs": 8,
+        "optimizer": "sgd",
+        "momentum": 0.9,
+        "lr_decay": 0.95,
+        "l2": 0.0001,
+        "seed": 42,
+        "patience": 8,
+        "val_size": 6000
+      }
+    },
+    {
+      "group": "optimizer",
+      "setting": "momentum",
+      "val_accuracy": 0.9746666666666667,
+      "val_loss": 0.09322967380285263,
+      "final_train_accuracy": 0.9883888888888889,
+      "params": 109386,
+      "seconds": 6.562889337539673,
+      "config": {
+        "hidden_sizes": [
+          128,
+          64
+        ],
+        "learning_rate": 0.01,
+        "batch_size": 64,
+        "epochs": 8,
+        "optimizer": "momentum",
+        "momentum": 0.9,
+        "lr_decay": 0.95,
+        "l2": 0.0001,
+        "seed": 42,
+        "patience": 8,
+        "val_size": 6000
+      }
+    },
+    {
+      "group": "optimizer",
+      "setting": "adam",
+      "val_accuracy": 0.9778333333333333,
+      "val_loss": 0.08351514488458633,
+      "final_train_accuracy": 0.9954259259259259,
+      "params": 109386,
+      "seconds": 13.5984046459198,
+      "config": {
+        "hidden_sizes": [
+          128,
+          64
+        ],
+        "learning_rate": 0.001,
+        "batch_size": 64,
+        "epochs": 8,
+        "optimizer": "adam",
+        "momentum": 0.9,
+        "lr_decay": 0.95,
+        "l2": 0.0001,
+        "seed": 42,
+        "patience": 8,
+        "val_size": 6000
+      }
+    },
+    {
+      "group": "batch size",
+      "setting": "batch=16",
+      "val_accuracy": 0.9768333333333333,
+      "val_loss": 0.08515094965696335,
+      "final_train_accuracy": 0.9968888888888889,
+      "params": 109386,
+      "seconds": 16.55706548690796,
+      "config": {
+        "hidden_sizes": [
+          128,
+          64
+        ],
+        "learning_rate": 0.01,
+        "batch_size": 16,
+        "epochs": 8,
+        "optimizer": "momentum",
+        "momentum": 0.9,
+        "lr_decay": 0.95,
+        "l2": 0.0001,
+        "seed": 42,
+        "patience": 8,
+        "val_size": 6000
+      }
+    },
+    {
+      "group": "batch size",
+      "setting": "batch=64",
+      "val_accuracy": 0.9746666666666667,
+      "val_loss": 0.09322967380285263,
+      "final_train_accuracy": 0.9883888888888889,
+      "params": 109386,
+      "seconds": 5.925900936126709,
+      "config": {
+        "hidden_sizes": [
+          128,
+          64
+        ],
+        "learning_rate": 0.01,
+        "batch_size": 64,
+        "epochs": 8,
+        "optimizer": "momentum",
+        "momentum": 0.9,
+        "lr_decay": 0.95,
+        "l2": 0.0001,
+        "seed": 42,
+        "patience": 8,
+        "val_size": 6000
+      }
+    },
+    {
+      "group": "batch size",
+      "setting": "batch=256",
+      "val_accuracy": 0.9583333333333334,
+      "val_loss": 0.15281961858272552,
+      "final_train_accuracy": 0.9634444444444444,
+      "params": 109386,
+      "seconds": 7.327108383178711,
+      "config": {
+        "hidden_sizes": [
+          128,
+          64
+        ],
+        "learning_rate": 0.01,
+        "batch_size": 256,
+        "epochs": 8,
+        "optimizer": "momentum",
+        "momentum": 0.9,
+        "lr_decay": 0.95,
+        "l2": 0.0001,
+        "seed": 42,
+        "patience": 8,
+        "val_size": 6000
+      }
+    },
+    {
+      "group": "L2 weight decay",
+      "setting": "l2=0.0",
+      "val_accuracy": 0.9736666666666667,
+      "val_loss": 0.09400945901870728,
+      "final_train_accuracy": 0.9892962962962963,
+      "params": 109386,
+      "seconds": 11.02324891090393,
+      "config": {
+        "hidden_sizes": [
+          128,
+          64
+        ],
+        "learning_rate": 0.01,
+        "batch_size": 64,
+        "epochs": 8,
+        "optimizer": "momentum",
+        "momentum": 0.9,
+        "lr_decay": 0.95,
+        "l2": 0.0,
+        "seed": 42,
+        "patience": 8,
+        "val_size": 6000
+      }
+    },
+    {
+      "group": "L2 weight decay",
+      "setting": "l2=0.0001",
+      "val_accuracy": 0.9746666666666667,
+      "val_loss": 0.09322967380285263,
+      "final_train_accuracy": 0.9883888888888889,
+      "params": 109386,
+      "seconds": 6.618669033050537,
+      "config": {
+        "hidden_sizes": [
+          128,
+          64
+        ],
+        "learning_rate": 0.01,
+        "batch_size": 64,
+        "epochs": 8,
+        "optimizer": "momentum",
+        "momentum": 0.9,
+        "lr_decay": 0.95,
+        "l2": 0.0001,
+        "seed": 42,
+        "patience": 8,
+        "val_size": 6000
+      }
+    },
+    {
+      "group": "L2 weight decay",
+      "setting": "l2=0.001",
+      "val_accuracy": 0.971,
+      "val_loss": 0.0969596728682518,
+      "final_train_accuracy": 0.9839814814814815,
+      "params": 109386,
+      "seconds": 8.032984256744385,
+      "config": {
+        "hidden_sizes": [
+          128,
+          64
+        ],
+        "learning_rate": 0.01,
+        "batch_size": 64,
+        "epochs": 8,
+        "optimizer": "momentum",
+        "momentum": 0.9,
+        "lr_decay": 0.95,
+        "l2": 0.001,
+        "seed": 42,
+        "patience": 8,
+        "val_size": 6000
+      }
+    }
+  ]
+}

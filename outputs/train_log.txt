@@ -1,0 +1,21 @@
+Split: {'train': 54000, 'val': 6000, 'test': 10000}
+epoch  1/25  lr=0.01000  train loss 0.2065 acc 0.9378  | val loss 0.2300 acc 0.9322  (0.7s)  *best*
+epoch  2/25  lr=0.00950  train loss 0.1406 acc 0.9577  | val loss 0.1672 acc 0.9533  (0.7s)  *best*
+epoch  3/25  lr=0.00903  train loss 0.0940 acc 0.9730  | val loss 0.1268 acc 0.9633  (0.8s)  *best*
+epoch  4/25  lr=0.00857  train loss 0.0833 acc 0.9751  | val loss 0.1149 acc 0.9657  (0.7s)  *best*
+epoch  5/25  lr=0.00815  train loss 0.0615 acc 0.9824  | val loss 0.1020 acc 0.9700  (0.7s)  *best*
+epoch  6/25  lr=0.00774  train loss 0.0514 acc 0.9859  | val loss 0.0954 acc 0.9720  (0.7s)  *best*
+epoch  7/25  lr=0.00735  train loss 0.0467 acc 0.9872  | val loss 0.0932 acc 0.9747  (0.8s)  *best*
+epoch  8/25  lr=0.00698  train loss 0.0409 acc 0.9884  | val loss 0.0954 acc 0.9722  (1.0s)
+epoch  9/25  lr=0.00663  train loss 0.0334 acc 0.9916  | val loss 0.0902 acc 0.9737  (0.9s)  *best*
+epoch 10/25  lr=0.00630  train loss 0.0289 acc 0.9932  | val loss 0.0863 acc 0.9747  (0.9s)  *best*
+epoch 11/25  lr=0.00599  train loss 0.0254 acc 0.9940  | val loss 0.0832 acc 0.9750  (0.7s)  *best*
+epoch 12/25  lr=0.00569  train loss 0.0222 acc 0.9952  | val loss 0.0860 acc 0.9757  (0.9s)
+epoch 13/25  lr=0.00540  train loss 0.0223 acc 0.9952  | val loss 0.0893 acc 0.9745  (1.0s)
+epoch 14/25  lr=0.00513  train loss 0.0190 acc 0.9967  | val loss 0.0880 acc 0.9752  (0.7s)
+epoch 15/25  lr=0.00488  train loss 0.0172 acc 0.9972  | val loss 0.0861 acc 0.9757  (0.8s)
+epoch 16/25  lr=0.00463  train loss 0.0154 acc 0.9976  | val loss 0.0851 acc 0.9758  (0.8s)
+epoch 17/25  lr=0.00440  train loss 0.0145 acc 0.9978  | val loss 0.0871 acc 0.9755  (0.8s)
+Early stopping: no validation-loss improvement for 6 epochs.
+Best epoch 11  val acc 0.9750  saved to /home/claude/handwritten-digit-recognition/models/ann_numpy.npz
+TEST  accuracy 0.9772  loss 0.0724  macro-F1 0.9770  (9772/10000 correct)

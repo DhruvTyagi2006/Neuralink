@@ -1,0 +1,41 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1792046143.944654     249 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1792046143.990578     249 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX512_FP16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1792046145.428010     249 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+Epoch 1/25
+844/844 - 3s - 4ms/step - accuracy: 0.9191 - loss: 0.2999 - val_accuracy: 0.9573 - val_loss: 0.1743
+Epoch 2/25
+844/844 - 2s - 3ms/step - accuracy: 0.9649 - loss: 0.1400 - val_accuracy: 0.9670 - val_loss: 0.1360
+Epoch 3/25
+844/844 - 2s - 3ms/step - accuracy: 0.9764 - loss: 0.1053 - val_accuracy: 0.9720 - val_loss: 0.1247
+Epoch 4/25
+844/844 - 3s - 3ms/step - accuracy: 0.9821 - loss: 0.0869 - val_accuracy: 0.9717 - val_loss: 0.1268
+Epoch 5/25
+844/844 - 2s - 2ms/step - accuracy: 0.9874 - loss: 0.0737 - val_accuracy: 0.9720 - val_loss: 0.1249
+Epoch 6/25
+844/844 - 2s - 3ms/step - accuracy: 0.9903 - loss: 0.0658 - val_accuracy: 0.9737 - val_loss: 0.1245
+Epoch 7/25
+844/844 - 2s - 3ms/step - accuracy: 0.9919 - loss: 0.0609 - val_accuracy: 0.9725 - val_loss: 0.1312
+Epoch 8/25
+844/844 - 3s - 3ms/step - accuracy: 0.9919 - loss: 0.0598 - val_accuracy: 0.9707 - val_loss: 0.1340
+Epoch 9/25
+844/844 - 2s - 3ms/step - accuracy: 0.9934 - loss: 0.0557 - val_accuracy: 0.9735 - val_loss: 0.1312
+Epoch 10/25
+844/844 - 2s - 3ms/step - accuracy: 0.9928 - loss: 0.0561 - val_accuracy: 0.9730 - val_loss: 0.1382
+Epoch 11/25
+844/844 - 3s - 3ms/step - accuracy: 0.9935 - loss: 0.0540 - val_accuracy: 0.9713 - val_loss: 0.1399
+Epoch 12/25
+844/844 - 2s - 3ms/step - accuracy: 0.9943 - loss: 0.0519 - val_accuracy: 0.9720 - val_loss: 0.1399
+{
+  "optimizer": "adam",
+  "learning_rate": 0.001,
+  "batch_size": 64,
+  "epochs_run": 12,
+  "test_accuracy": 0.9771,
+  "test_loss": 0.08127707242965698,
+  "train_seconds": 30.636077404022217,
+  "trainable_parameters": 109386,
+  "tensorflow_version": "2.21.0"
+}
