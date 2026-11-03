@@ -1,0 +1,14 @@
+# Core (NumPy ANN, preprocessing, evaluation)
+numpy>=1.26
+Pillow>=10.0
+matplotlib>=3.8
+pandas>=2.0,<3        # Streamlit 1.38 requires pandas < 3
+# App
+streamlit==1.38.0
+streamlit-drawable-canvas==0.9.3   # works with Streamlit 1.38 (newer Streamlit breaks this component)
+plotly>=5.20
+# Tests / evaluation cross-checks
+pytest>=8.0
+scikit-learn>=1.3
+# Optional: Keras comparison only (the NumPy ANN never imports TensorFlow)
+# tensorflow>=2.16
